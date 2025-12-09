@@ -104,6 +104,8 @@ Dashboard design principles
 
 Multi-chart storytelling
 
+![Dashboard](./images/FinalDashboard.png)
+
 Customer insights analysis
 
 Visual analytics techniques

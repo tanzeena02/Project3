@@ -1,50 +1,112 @@
-# Project3
-# Sephora skincare Price, Rating and Skin Type Analysis
+# Sephora Skincare Price, Rating & Skin Type Analysis
+A Tableau Data Visualization Project by Afroza Tanzeena
 
-## Uncovering value vs. luxury in skincare products using Tableau
+## ⭐ Project Overview
 
-# This project explores the Sephora moisturizer market by analyzing more than 300 products across multiple brands.
-The goal is to understand how price, customer ratings, skin-type suitability, and brand assortment influence consumer behavior and product positioning.
+This project analyzes over 1,000 Sephora moisturizers, exploring how price, customer ratings, brand popularity, and skin-type suitability interact in the beauty retail market.
 
-<p align="center"> <img src="Dashboard.png" width="80%" /> </p>
+As someone currently working at Sephora, I wanted to choose a dataset aligned with my industry experience while strengthening my Tableau Public and data visualization skills.
 
-## Project Overview
+This end-to-end project includes:
 
-Using Tableau Public, I built an interactive dashboard that highlights:
+Data cleaning and preparation
+
+Visual exploration of product trends
+
+Multi-chart Tableau dashboard
+
+Insights relevant to beauty retail, merchandising, and customer behavior
+
+## 🎯 Objectives
+
+1. Identify top-performing skincare brands based on product variety.
+2. Examine how pricing influences customer ratings.
+3. Analyze product suitability for different skin types.
+4. Explore the price distribution across the moisturizers category.
+5. Build an interactive Tableau dashboard with multiple visual components.
+
+## 🧼 Dataset
+
+The dataset includes the following fields:
+
+Brand
+
+Label / Product Type
+
+Price
+
+Rank (Customer Rating)
+
+Skin Type Flags: Combination, Dry, Normal, Oily, Sensitive
+
+Ingredients
+
+Additional supporting attributes
+
+Source: Public skincare dataset (cleaned and structured for analysis).
+
+## 📈 Visualizations Included
+
+This Tableau dashboard contains five key charts, each revealing a different perspective:
 
 1️⃣ Top Brands by Number of Moisturizers
 
-Shows which brands dominate product variety, with color encoding to display average customer rating.
+Bar chart showing brand assortment size, colored by average rating.
 
-2️⃣ Price vs. Rating Relationship
+2️⃣ Percentage of Moisturizers Suitable for Each Skin Type
 
-A scatter plot revealing whether higher-priced moisturizers actually deliver higher customer satisfaction.
+100% stacked bar chart showing how brands distribute products across Combination, Dry, Normal, Oily, and Sensitive needs.
 
-3️⃣ Skin-Type Suitability Distribution
+3️⃣ Price vs Customer Rating Scatterplot
 
-Percentage breakdown showing how many moisturizers are made for:
+Reveals that higher price does not guarantee higher customer ratings.
 
-Combination
+4️⃣ Top 10 Highest-Rated Moisturizers
 
-Dry
+A ranked view of the strongest performers, showing price and rating together.
 
-Normal
+5️⃣ Price Distribution Histogram
 
-Oily
+Highlights price clusters across the category, showing most products fall in the $20–$80 range.
 
-Sensitive
+## 🔍 Key Insights
 
-4️⃣ Overall Price Distribution
+Clinique, Sephora Collection, and Shiseido offer the largest variety of moisturizers.
 
-Histogram showing affordability clusters vs. luxury outliers.
+Customer ratings remain high (4.0–5.0) across both affordable and luxury items.
 
-# Key Insights
+Price is not a strong predictor of customer satisfaction.
 
-✔ Popular brands like Clinique, Sephora Collection, Shiseido, and Origins carry the largest assortment of moisturizers.
-✔ There is no strong correlation between price and rating — expensive does NOT always mean better.
-✔ Most moisturizers cater to Combination and Dry skin, while Sensitive skin is underrepresented.
-✔ The majority of products fall within the $20–$80 range, with luxury products priced well above $200.
+Most products target Combination, Normal, and Dry skin types.
 
-# Tableau Dashboard: 
+Sensitive skin products are fewer in comparison.
 
-![Dashboard](./images/Dashboard 3.png) 
+The price distribution skews toward affordable to mid-range, with fewer premium products.
+
+## 🛠️ Tools Used
+
+Tableau Public – Dashboard + visual exploration
+
+Excel / CSV – Data cleanup
+
+GitHub – Portfolio hosting
+
+## 📌 Dashboard Link
+
+https://public.tableau.com/app/profile/afroza.tanzeena/viz/Sephoraskincareanalysisfinal/FinalDashboard 
+
+## 🧠 Why I Chose This Project
+
+This project reflects both my professional experience in beauty retail and my growing interest in data analytics & visualization.
+It allowed me to practice:
+
+Dashboard design principles
+
+Multi-chart storytelling
+
+Customer insights analysis
+
+Visual analytics techniques
+
+Trend interpretation
+
